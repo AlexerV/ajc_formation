@@ -10,7 +10,7 @@ Acquérir les compétences nécessaires pour maintenir, développer et faire év
 
 ## 🧰 Technologies & Environnements étudiés
 
-### 🧑‍💻 Environnement Mainframe :
+### 🧑‍💻 Environnement & technologies Mainframe :
 - **z/OS** : Système d’exploitation IBM pour mainframe
 - **TSO/ISPF** : Interface utilisateur pour accéder, modifier et exécuter du code sur le mainframe
 - **JCL (Job Control Language)** : Langage de script pour lancer des traitements batch et gérer les ressources
@@ -55,7 +55,7 @@ Acquérir les compétences nécessaires pour maintenir, développer et faire év
 <summary>Voir le projet</summary>
 
 Dans le cadre de ma formation, j'ai participé à un projet de groupe simulant une mission pour l'entreprise fictive **AJCFRAME**, spécialisée dans la vente de produits technologiques.  
-L'objectif global du projet était de concevoir des traitements COBOL, automatiser l'import de données, générer des factures, et développer une interface utilisateur via **CICS**.
+L'objectif du projet était de concevoir des traitements batch **COBOL**, automatiser l'import de données issues de fichiers externes, générer des factures à partir de commandes clients, et développer une interface utilisateur transactionnelle via **CICS**.
 
 🔗 **Dépôt GitHub** : [ajc_project](https://github.com/AlexerV/ajc_project)
 
