@@ -50,6 +50,15 @@ Acquérir les compétences nécessaires pour maintenir, développer et faire év
 - Analyse de retours systèmes et résolution d’erreurs en environnement mainframe
 
 ---
+
+## 📂 Ressources personnelles – Fichiers TSO
+
+Durant ma formation, j'ai accumulé un ensemble de fichiers TSO que je mets à disposition au format ZIP pour consultation ou usage.  
+
+Vous pouvez télécharger l’archive complète ici :  
+[TSO_FILE.zip](https://github.com/AlexerV/ajc_formation/blob/main/TSO/API7/TSO_FILE.zip)
+
+---
 ## 📁 Projet de groupe – Traitement de données Mainframe
 <details>
 <summary>Voir le projet</summary>
