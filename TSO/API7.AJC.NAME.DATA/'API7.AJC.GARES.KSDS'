@@ -1,0 +1,8 @@
+RBA         Len    <>--+----1----+----2----+----3
+****  Top of data  ****
+0            30    01GARE DE SAVIGNY
+30           30    02GARE DE TOURNAN
+60           30    03GARE DE ROISSY
+90           30    04GARE DE GRETZ
+120          30    05GARE DE LYON
+****  End of data  ****
