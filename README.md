@@ -48,3 +48,9 @@ Acquérir les compétences nécessaires pour maintenir, développer et faire év
 - Manipulation de fichiers VSAM
 - Lecture et compréhension d’applications Pacbase
 - Analyse de retours systèmes et résolution d’erreurs en environnement mainframe
+
+---
+
+## 📁 Projets réalisés
+
+### 🔹 Projet de groupe Mainframe : [ajc_project](https://github.com/AlexerV/ajc_project)
