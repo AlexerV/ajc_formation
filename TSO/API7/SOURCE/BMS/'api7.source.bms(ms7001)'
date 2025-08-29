@@ -1,0 +1,75 @@
+*                                                                       00000100
+* SQUELETTE DE MAP BMS - MODIFIER MAP0C13 , N : NO 00, G : NO 13        00000100
+*                                                                       00000100
+        PRINT NOGEN
+MS7001  DFHMSD TYPE=&SYSPARM,MODE=INOUT,LANG=COBOL,EXTATT=YES,         X00000100
+               CTRL=(FREEKB,FRSET),STORAGE=AUTO,TIOAPFX=YES             00000200
+MM7001  DFHMDI COLUMN=1,LINE=1,SIZE=(24,80)                             00000210
+IDENT   DFHMDF POS=(1,1),                                              X00000211
+               ATTRB=ASKIP,LENGTH=17                                    00000220
+*                                                                       00000420
+        DFHMDF POS=(1,31),                                             X00000211
+               ATTRB=ASKIP,LENGTH=25,                                  X00000220
+               INITIAL='GESTION DU FICHIER CLIENT'                      00000300
+*                                                                       00000420
+JOUR    DFHMDF POS=(1,68),                                             X00000400
+               ATTRB=ASKIP,LENGTH=10                                    00000410
+*
+HEURE   DFHMDF POS=(2,68),                                             X00000400
+               ATTRB=ASKIP,LENGTH=8                                     00000410
+*
+        DFHMDF POS=(7,26),                                             X00000400
+               ATTRB=(ASKIP,BRT),LENGTH=25,                            X00000410
+               INITIAL='01 - CREATION D''UN CLIENT'
+*
+        DFHMDF POS=(9,26),                                             X00000400
+               ATTRB=(ASKIP,BRT),LENGTH=30,                            X00000410
+               INITIAL='02 - CONSULTATION D''UN CLIENT'
+*
+        DFHMDF POS=(11,26),                                            X00000400
+               ATTRB=(ASKIP,BRT),LENGTH=28,                            X00000410
+               INITIAL='03 - MISE A JOUR D''UN CLIENT'
+*
+        DFHMDF POS=(13,26),                                            X00000400
+               ATTRB=(ASKIP,BRT),LENGTH=22,                            X00000410
+               INITIAL='04 - LISTE DES CLIENTS'
+*
+        DFHMDF POS=(15,26),                                            X00000400
+               ATTRB=(ASKIP,BRT),LENGTH=30,                            X00000410
+               INITIAL='05 - SUPPRESSION D''UN CLIENT'
+*
+        DFHMDF POS=(17,26),                                            X00000400
+               ATTRB=(ASKIP,BRT),LENGTH=30,                            X00000410
+               INITIAL='06 - SUPPRESSION DIFFEREE'
+*
+        DFHMDF POS=(19,26),                                            X00000400
+               ATTRB=(ASKIP,BRT),LENGTH=30,                            X00000410
+               INITIAL='07 - NOUVELLE OPTION'
+*
+        DFHMDF POS=(21,31),                                            X00000400
+               ATTRB=ASKIP,LENGTH=14,                                  X00000410
+               INITIAL='VOTRE CHOIX : '
+*
+CHOIX   DFHMDF POS=(22,46),                                            X00000400
+               ATTRB=(UNPROT,IC),LENGTH=2,PICIN='XX',                  X00000410
+               INITIAL='__'
+        DFHMDF POS=(22,49),ATTRB=ASKIP,LENGTH=1
+*
+        DFHMDF POS=(22,31),                                            X00000400
+               ATTRB=ASKIP,LENGTH=20,                                  X00000410
+               INITIAL='TYPE D''ACCES(V/D) : '
+*
+TYPE    DFHMDF POS=(23,52),                                            X00000400
+               ATTRB=(UNPROT),LENGTH=1,PICIN='X',                      X00000410
+               INITIAL='_'
+        DFHMDF POS=(23,54),ATTRB=ASKIP,LENGTH=1
+*
+        DFHMDF POS=(23,1),                                             X00000400
+               ATTRB=ASKIP,LENGTH=79,                                  X00000410
+               INITIAL='CLEAR - FIN'
+*
+MESSAGE DFHMDF POS=(24,1),                                             X
+               ATTRB=(ASKIP,BRT),LENGTH=79
+*
+        DFHMSD TYPE=FINAL                                               00000800
+        END                                                             00000900

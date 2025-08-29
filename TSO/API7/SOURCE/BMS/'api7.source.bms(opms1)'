@@ -1,0 +1,145 @@
+OPMS1    DFHMSD TYPE=&SYSPARM,                                         X
+               MODE=INOUT,                                             X
+               CTRL=FREEKB,                                            X
+               LANG=COBOL,                                             X
+               TIOAPFX=YES,                                            X
+               DSATTS=COLOR,                                           X
+               MAPATTS=COLOR,                                          X
+               STORAGE=AUTO
+***********************************************************************
+OPMAP1   DFHMDI SIZE=(24,80),LINE=1,COLUMN=1
+***********************************************************************
+         DFHMDF POS=(1,1),                                             X
+               LENGTH=79,                                              X
+               INITIAL='***********************************************X
+               ********************************',                      X
+               ATTRB=(ASKIP,PROT)
+         DFHMDF POS=(2,1),                                             X
+               LENGTH=2,                                               X
+               INITIAL='* ',                                           X
+               ATTRB=(ASKIP,PROT)
+         DFHMDF POS=(2,3),                                             X
+               LENGTH=08,                                              X
+               INITIAL=' DATE : ',                                     X
+               ATTRB=(ASKIP,PROT),COLOR=YELLOW
+***********************************************************************
+** DATE
+***********************************************************************
+DATEJ    DFHMDF POS=(2,14),                                            X
+               LENGTH=10,                                              X
+               INITIAL=' ',                                            X
+               ATTRB=(ASKIP,PROT,FSET)
+         DFHMDF POS=(2,24),                                            X
+               LENGTH=06,                                              X
+               INITIAL='PGM : ',COLOR=RED,                             X
+               ATTRB=(ASKIP,PROT)
+***********************************************************************
+** PGMNAME
+***********************************************************************
+PGMNAME  DFHMDF POS=(2,30),                                            X
+               LENGTH=09,                                              X
+               INITIAL=' ',COLOR=RED,                                  X
+               ATTRB=(ASKIP,PROT,FSET)
+         DFHMDF POS=(2,39),                                            X
+               LENGTH=07,                                              X
+               INITIAL='TRANS: ',COLOR=RED,                            X
+               ATTRB=(ASKIP,PROT)
+***********************************************************************
+** TRNNAME
+***********************************************************************
+TRNNAME  DFHMDF POS=(2,46),                                            X
+               LENGTH=07,                                              X
+               INITIAL=' ',COLOR=RED,                                  X
+               ATTRB=(ASKIP,PROT,FSET)
+         DFHMDF POS=(2,53),                                            X
+               LENGTH=08,                                              X
+               INITIAL='HEURE : ',                                     X
+               ATTRB=(ASKIP,PROT),COLOR=YELLOW
+***********************************************************************
+** HEURE
+***********************************************************************
+HEURE    DFHMDF POS=(2,62),                                            X
+               LENGTH=08,                                              X
+               INITIAL=' ',                                            X
+               ATTRB=(ASKIP,PROT,FSET)
+         DFHMDF POS=(2,79),                                            X
+               LENGTH=1,INITIAL='*',                                   X
+               ATTRB=(ASKIP,PROT)
+         DFHMDF POS=(3,1),                                             X
+               LENGTH=79,                                              X
+               INITIAL='***********************************************X
+               ********************************',                      X
+               ATTRB=(ASKIP,PROT)
+         DFHMDF POS=(17,1),                                            X
+               LENGTH=79,                                              X
+               INITIAL='***********************************************X
+               ********************************',                      X
+               ATTRB=(ASKIP,PROT)
+         DFHMDF POS=(18,1),                                            X
+               LENGTH=78,                                              X
+               INITIAL='* ESC : FIN',                                  X
+               ATTRB=(ASKIP,PROT)
+         DFHMDF POS=(18,79),                                           X
+               LENGTH=1,                                               X
+               INITIAL='*',                                            X
+               ATTRB=(ASKIP,PROT)
+         DFHMDF POS=(19,1),                                            X
+               LENGTH=12,                                              X
+               INITIAL='* MESSAGE : ',                                 X
+               ATTRB=(ASKIP,PROT)
+***********************************************************************
+** MESS1
+***********************************************************************
+MESS1    DFHMDF POS=(19,14),                                           X
+               LENGTH=55,                                              X
+               ATTRB=(ASKIP,PROT,BRT)
+         DFHMDF POS=(19,79),                                           X
+               LENGTH=1,                                               X
+               INITIAL='*',                                            X
+               ATTRB=(ASKIP,PROT)
+         DFHMDF POS=(20,1),                                            X
+               LENGTH=1,                                               X
+               INITIAL='*',                                            X
+               ATTRB=(ASKIP,PROT)
+***********************************************************************
+** MESS2
+***********************************************************************
+MESS2    DFHMDF POS=(20,14),                                           X
+               LENGTH=56,                                              X
+               ATTRB=(ASKIP,PROT,BRT)
+         DFHMDF POS=(20,79),                                           X
+               LENGTH=1,                                               X
+               INITIAL='*',                                            X
+               ATTRB=(ASKIP,PROT)
+***********************************************************************
+** SEPARATEUR + FIN
+***********************************************************************
+         DFHMDF POS=(21,1),                                            X
+               LENGTH=79,                                              X
+               INITIAL='***********************************************X
+               ********************************',                      X
+               ATTRB=(ASKIP,PROT)
+         DFHMSD TYPE=FINAL
+         END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
