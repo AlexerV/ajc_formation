@@ -1,0 +1,26 @@
+//JP7INFOS JOB (ACCT#),'ALEXIS',MSGLEVEL=(1,1),
+//         NOTIFY=&SYSUID,CLASS=A,MSGCLASS=H,TIME=(0,15),COND=(4,LT)
+//*
+//         JCLLIB  ORDER=SDJ.FORM.PROCLIB
+//*
+//         EXEC COMPCICS,NOMPGM=P7INFOS
+//*
+//********************************************************************
+//*       COMPILE  - COMPILE COBOL/CICS ET LINKEDIT DE PROGRAMME     *
+//*                  DB2 VERSION 7                                   *
+//********************************************************************
+//*------------------------------------------------------*
+//* ===> MODIFIER XX PAR N¢ DU GROUPE  (XX 01 @ 15)      *
+//*      CHANGER 'INFNCIXX' PAR VOTRE NOM DE PROGRAMME   *
+//*------------------------------------------------------*
+//*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*
+//*   CETTE PROCEDURE CONTIENT 6 STEPS :                             *
+//*         1/  PRECOMPILE  CICS/TS                                  *
+//*         2/  COMPILE COBOL II                                     *
+//*         3/  LINKEDIT  (DANS FORM.CICS.LOAD)                      *
+//*  LES   PROCEDURES  SE TROUVENT DANS SDJ.FORM.PROCLIB             *
+//*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*
+//STEPCIC.SYSIN    DD DSN=API7.SOURCE.COBOL(&NOMPGM),DISP=SHR
+//STEPCOB.SYSLIB   DD
+//                 DD
+//                 DD DSN=API7.SOURCE.COPY,DISP=SHR
