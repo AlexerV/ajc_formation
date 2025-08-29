@@ -50,7 +50,23 @@ Acquérir les compétences nécessaires pour maintenir, développer et faire év
 - Analyse de retours systèmes et résolution d’erreurs en environnement mainframe
 
 ---
+## 📁 Projet de groupe – Traitement de données Mainframe
+<details>
+<summary>Voir le projet</summary>
 
-## 📁 Projets réalisés
+Dans le cadre de ma formation, j'ai participé à un projet de groupe simulant une mission pour l'entreprise fictive **AJCFRAME**, spécialisée dans la vente de produits technologiques.  
+L'objectif global du projet était de concevoir des traitements COBOL, automatiser l'import de données, générer des factures, et développer une interface utilisateur via **CICS**.
 
-### 🔹 Projet de groupe Mainframe : [ajc_project](https://github.com/AlexerV/ajc_project)
+🔗 **Dépôt GitHub** : [ajc_project](https://github.com/AlexerV/ajc_project)
+
+### 🧑‍💻 Ma contribution principale (Partie 2 – Intégration des ventes étrangères) :
+- Développement du traitement **COBOL** pour lire et traiter les ventes issues des fichiers :
+  - `PROJET.VENTESEU.DATA` (Europe)
+  - `PROJET.VENTESAS.DATA` (Asie)
+- Formatage et insertion des données dans la **base de données DB2**
+- Calcul et mise à jour automatique du **chiffre d'affaires** pour chaque client
+- Écriture et tests des **JCL** associés aux traitements batch
+- Vérification des retours code et débogage via **TSO/ISPF**
+
+Ce projet m’a permis d'approfondir mes compétences sur les traitements de fichiers séquentiels, l'intégration en base DB2, et l’automatisation de tâches sur un environnement **mainframe z/OS**.
+</details>
