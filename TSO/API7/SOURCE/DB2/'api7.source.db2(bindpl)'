@@ -1,0 +1,15 @@
+*                                                                       00000100
+* SQUELETTE DE MAP BMS - MODIFIER MAPNCG , N : N¢ TP, G : N¢ GRPE       00000100
+*                                                                       00000100
+        PRINT NOGEN
+MAPNCG  DFHMSD TYPE=&SYSPARM,MODE=INOUT,LANG=COBOL,                    X00000100
+               CTRL=(FREEKB,FRSET),STORAGE=AUTO,TIOAPFX=YES             00000200
+MAPNCG  DFHMDI COLUMN=1,LINE=1,SIZE=(24,80)                             00000210
+        DFHMDF POS=(X,XX),                                             X00000211
+               ATTRB=ASKIP,LENGTH=XX,                                  X00000220
+               INITIAL='XXXXXXXXXXXXXXXXXX'                             00000300
+XX      DFHMDF POS=(X,XX),                                             X00000400
+               ATTRB=ASKIP,LENGTH=XX,                                  X00000410
+               INITIAL='XXXXXXXXXXXXXXXXXXXXXXXXXX'                     00000420
+        DFHMSD TYPE=FINAL                                               00000800
+        END                                                             00000900
