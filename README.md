@@ -56,11 +56,9 @@ Acquérir les compétences nécessaires pour maintenir, développer et faire év
 Durant ma formation, j'ai accumulé un ensemble conséquent de fichiers TSO, disponibles individuellement dans ce dépôt GitHub.  
 Pour faciliter la consultation et le téléchargement, j’ai également regroupé tous ces fichiers dans une archive ZIP :
 
-- Télécharger l’archive complète :  
-  [Archive ZIP](https://github.com/AlexerV/ajc_formation/blob/main/TSO/API7/TSO_FILE.zip)
+- Télécharger l’archive complète : [Archive ZIP](https://github.com/AlexerV/ajc_formation/blob/main/TSO/API7/TSO_FILE.zip)
 
-- Les fichiers sont aussi consultables individuellement dans le dépôt GitHub : 
-  [Dépôt](https://github.com/AlexerV/ajc_formation/tree/main/TSO/API7)
+- Les fichiers sont aussi consultables individuellement dans le dépôt GitHub : [Dépôt](https://github.com/AlexerV/ajc_formation/tree/main/TSO/API7)
 
 ---
 ## 📁 Projet de groupe – Traitement de données Mainframe
