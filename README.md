@@ -59,7 +59,7 @@ Pour faciliter la consultation et le téléchargement, j’ai également regroup
 - Télécharger l’archive complète :  
   [TSO_FILE.zip](https://github.com/AlexerV/ajc_formation/blob/main/TSO/API7/TSO_FILE.zip)
 
-- Accéder aux fichiers individuellement sur GitHub :  
+- Tous les fichiers sont également consultables individuellement directement dans le dépôt GitHub :  
   [https://github.com/AlexerV/ajc_formation/tree/main/TSO](https://github.com/AlexerV/ajc_formation/tree/main/TSO)
 
 ---
