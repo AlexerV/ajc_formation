@@ -51,6 +51,18 @@ Acquérir les compétences nécessaires pour maintenir, développer et faire év
 
 ---
 
+## 💻 Logiciels utilisés
+
+Au cours de ma formation, j'ai utilisé plusieurs logiciels et outils pour interagir avec l'environnement mainframe, développer, et gérer les traitements batch. Voici les principaux logiciels utilisés :
+
+- **TN3270** : Client terminal pour se connecter à un mainframe et interagir avec les systèmes IBM z/OS via une interface 3270.
+- **WC3270** : Utilisé pour les transferts de fichiers entre le mainframe et des systèmes locaux. Idéal pour l'échange de données avec les serveurs z/OS.
+- **IBM Developer for z/OS** : IDE spécifique pour le développement et le débogage d'applications sur z/OS, avec des outils d'intégration pour COBOL, JCL et autres langages de développement mainframe.
+- **VMware Workstation 17 Player** : Virtualisation utilisée principalement pour faire tourner l'environnement Pacbase localement. Permet de simuler un environnement mainframe et de tester des applications Pacbase dans un cadre de développement.
+- **OpenCobolIDE** : IDE pour le développement et le test de programmes COBOL, adapté pour les environnements de développement COBOL locaux avant déploiement sur le mainframe.
+
+---
+
 ## 📂 Ressources personnelles – Fichiers TSO
 
 Durant ma formation, j'ai accumulé un ensemble conséquent de fichiers TSO, disponibles individuellement dans ce dépôt GitHub.  
