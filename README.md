@@ -80,7 +80,7 @@ Pour faciliter la consultation et le téléchargement, j’ai également regroup
 Dans le cadre de ma formation, j'ai participé à un projet de groupe simulant une mission pour l'entreprise fictive **AJCFRAME**, spécialisée dans la vente de produits technologiques.  
 L'objectif du projet était de concevoir des traitements batch **COBOL**, automatiser l'import de données issues de fichiers externes, générer des factures à partir de commandes clients, et développer une interface utilisateur transactionnelle via **CICS**.
 
-🔗 **Dépôt GitHub** : [ajc_project](https://github.com/AlexerV/ajc_project)
+🔗 **Dépôt GitHub** du [projet](https://github.com/AlexerV/ajc_project).
 
 ### 🧑‍💻 Ma contribution principale (Partie 2 – Intégration des ventes étrangères) :
 - Développement du traitement **COBOL** pour lire et traiter les ventes issues des fichiers :
