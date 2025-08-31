@@ -11,12 +11,12 @@ Acquérir les compétences nécessaires pour maintenir, développer et faire év
 ## 🧰 Technologies & Environnements étudiés
 
 ### 🧑‍💻 Environnement & technologies Mainframe :
-- **z/OS** : Système d’exploitation IBM pour mainframe
-- **TSO/ISPF** : Interface utilisateur pour accéder, modifier et exécuter du code sur le mainframe
-- **JCL (Job Control Language)** : Langage de script pour lancer des traitements batch et gérer les ressources
-- **VSAM** : Système de gestion de fichiers (séquentiels, indexés, etc.)
-- **COBOL** : Langage de programmation orienté gestion, largement utilisé en entreprise
-- **Pacbase** : Générateur d'applications pour la maintenance de systèmes d'information
+- **z/OS** : Système d’exploitation IBM pour mainframe.
+- **TSO/ISPF** : Interface utilisateur pour accéder, modifier et exécuter du code sur le mainframe.
+- **JCL (Job Control Language)** : Langage de script pour lancer des traitements batch et gérer les ressources.
+- **VSAM** : Système de gestion de fichiers (séquentiels, indexés, etc).
+- **COBOL** : Langage de programmation orienté gestion, largement utilisé en entreprise.
+- **Pacbase** : Générateur d'applications pour la maintenance de systèmes d'information.
 
 ---
 
