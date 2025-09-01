@@ -39,11 +39,11 @@ Cela remplace la commande habituelle `LOGON APIX`.
 
 Pour afficher les ressources CICS (programmes, fichiers, transactions), utilisez ces commandes :
 
-Lister les programmes : `CEMT I PROG`
+- Lister les programmes : `CEMT I PROG`
 
-Lister les fichiers : `CEMT I FILE`
+- Lister les fichiers : `CEMT I FILE`
 
-Lister les transactions : `CEMT I TRANS`
+- Lister les transactions : `CEMT I TRANS`
 
 ### Se déconnecter
 
