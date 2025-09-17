@@ -1,7 +1,7 @@
 //APIXXDB JOB NOTIFY=&SYSUID,CLASS=A,MSGCLASS=H
 //*
 //*------------------------------------------------------*
-//* ===> CHANGER XX PAR N¢ DU GROUPE   (XX 01 @ 15)      *
+//* ===> CHANGER XX PAR NÂ¢ DU GROUPE   (XX 01 @ 15)      *
 //*      CHANGER     APIXXDB$ PAR LE NOM DU PROGRAMME    *
 //*------------------------------------------------------*
 //*
