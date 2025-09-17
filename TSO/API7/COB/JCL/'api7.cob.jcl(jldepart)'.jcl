@@ -1,6 +1,6 @@
 //API7DBC  JOB (ACCT#),'COMPDB2',MSGCLASS=H,REGION=4M,//    CLASS=A,MSG
 //    COND=(4,LT)//*//*-----------------------------------------------
-//* ===> CHANGER XX PAR N¢ DU GROUPE   (XX 01 @ 15)      *//*      CHAN
+//* ===> CHANGER XX PAR NÂ¢ DU GROUPE   (XX 01 @ 15)      *//*      CHAN
 //*------------------------------------------------------*//*//*=-=-=-
 //*   CETTE PROCEDURE CONTIENT 5 STEPS :                             */
 //*                                                                  */
