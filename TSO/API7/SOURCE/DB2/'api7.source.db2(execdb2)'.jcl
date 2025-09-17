@@ -1,8 +1,8 @@
 //APIXXMAP JOB DPTM,VSAM,MSGLEVEL=(1,1),MSGCLASS=H,CLASS=A,             00010000
 //   NOTIFY=&SYSUID                                                     00020000
 //*------------------------------------------------------*
-//*      MODIFIER XX PAR N¢ DU GROUPE                    *
-//*      MODIFIER N PAR N¢ DE MAP                        *
+//*      MODIFIER XX PAR NÂ¢ DU GROUPE                    *
+//*      MODIFIER N PAR NÂ¢ DE MAP                        *
 //*      MODIFIER &MAP  PAR MAPNCIXX                     *
 //*------------------------------------------------------*
 //*
