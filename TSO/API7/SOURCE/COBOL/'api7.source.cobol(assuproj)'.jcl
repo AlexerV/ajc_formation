@@ -2,7 +2,7 @@
 //   NOTIFY=&SYSUID
 //*                                                                     01180000
 //*------------------------------------------------------*
-//* ===> CHANGER XX PAR N¢ DU GROUPE   (XX 01 @ 15)      *
+//* ===> CHANGER XX PAR NÂ¢ DU GROUPE   (XX 01 @ 15)      *
 //*      CHANGER 'INFNCIXX' PAR VOTRE NOM DE PROGRAMME   *
 //*------------------------------------------------------*
 //*                                                                     01020000
