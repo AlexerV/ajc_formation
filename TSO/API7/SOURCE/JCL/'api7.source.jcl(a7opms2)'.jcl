@@ -1,8 +1,8 @@
 //A7OPMS2 JOB DPTM,VSAM,MSGLEVEL=(1,1),MSGCLASS=H,CLASS=A,              00010000
 //   NOTIFY=&SYSUID,TIME=(0,5)                                          00020000
 //*------------------------------------------------------*              00030000
-//*      MODIFIER XX PAR N¢ DU GROUPE                    *              00040000
-//*      MODIFIER N PAR N¢ DE MAP                        *              00050000
+//*      MODIFIER XX PAR NÂ¢ DU GROUPE                    *              00040000
+//*      MODIFIER N PAR NÂ¢ DE MAP                        *              00050000
 //*      MODIFIER &MAP  PAR MAPNCIXX                     *              00060000
 //*------------------------------------------------------*              00070000
 //         JCLLIB  ORDER=SDJ.FORM.PROCLIB                               00080000
