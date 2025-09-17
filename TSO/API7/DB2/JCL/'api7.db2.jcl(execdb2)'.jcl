@@ -3,9 +3,9 @@
 //*
 //*
 //*------------------------------------------------------*
-//* ===> CHANGER FORMXX PAR FORMNN  (NN: N¢ DU GROUPE)   *
+//* ===> CHANGER FORMXX PAR FORMNN  (NN: NÂ¢ DU GROUPE)   *
 //*      CHANGER APIXXDB$ PAR LE NOM DU PROGRAMME        *
-//*      CHANGER XX PAR N¢ DU GROUPE   (XX 01 @ 15)      *
+//*      CHANGER XX PAR NÂ¢ DU GROUPE   (XX 01 @ 15)      *
 //* BIND PLAN, POUR DBRMLIB : FORMXX.S0URCE.DBRMLIB      *
 //*------------------------------------------------------*
 //*
