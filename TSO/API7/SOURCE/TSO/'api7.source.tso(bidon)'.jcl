@@ -1,13 +1,13 @@
 //APIXXE   JOB 'SDJ FORMATION',MSGLEVEL=(1,1),MSGCLASS=H,CLASS=A,       00000109
 //   NOTIFY=&SYSUID,TIME=(,1)                                           00000208
 //*------------------------------------------------------*              00000300
-//*      MODIFIER $ PAR N¢ DU GROUPE                     *              00000400
+//*      MODIFIER $ PAR NÂ¢ DU GROUPE                     *              00000400
 //*------------------------------------------------------*              00000500
 //*                                                                     00001000
 //********************************************************************* 00002005
 //*  PROCEDURE DE COMPIL/LINK EDIT D'UN PROGRAMME COBOL INFNCOXX      * 00003005
 //*                                                                   * 00004005
-//*  TAPER LA COMMANDE "C API$  PAR APIN  :(N  N¢ DE VOTRE GROUPE)    * 00005006
+//*  TAPER LA COMMANDE "C API$  PAR APIN  :(N  NÂ¢ DE VOTRE GROUPE)    * 00005006
 //*                                                                   * 00006005
 //*  TAPER LA COMMANDE "SUB" AFIN DE SOUMETTRE VOTRE JOB              * 00007005
 //*                                                                   * 00008005
