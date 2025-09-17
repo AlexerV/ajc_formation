@@ -14,11 +14,3 @@
     VALUES('P02','MARKET','BAT2','070');
   COMMIT;
 --
-
-
-
-
-
-
-
-
